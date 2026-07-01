@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6r0001/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 撰集三藏及雜藏傳
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T49/T49n2026.xml
+    old_id: T49n2026
+hash: sha256:16a1f38ac816b81e5676d561282ec720b830c89fc4c2eca15d650dd402a3f3b1

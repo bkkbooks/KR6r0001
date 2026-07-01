@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6r0001/T/v1
+canonical_location: https://kanripo.org/bkk/KR6r0001/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 撰集三藏及雜藏傳
+  identifiers:
+    krp: KR6r0001
+    cbeta: T49n2026
+    cbeta_old_id: T49n2026
+    authorityid: CA0004162
+    json_key: T2026
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T49/T49n2026.xml
+    old_id: T49n2026
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0001_000-T.yaml, hash: 'sha256:16a1f38ac816b81e5676d561282ec720b830c89fc4c2eca15d650dd402a3f3b1'}
+  - {seq: 1, filename: KR6r0001_001-T.yaml, hash: 'sha256:ec2c9014f7de3f0df1229162ae1c25f9bc09e5cb8100ee85cee3ed4634e6e359'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6r0001_000-T.markers.yaml, hash: 'sha256:b90eb1f8ccd43ac13e0d2d66de923ae46f38b8e91ae6f9ba74855df6aa17a773'}
+  - {seq: 1, role: markers, filename: assets/KR6r0001_001-T.markers.yaml, hash: 'sha256:456a21ffd731bb989105ada58ccc6dd90fbdf740cafd5012bed8ee79a6b9da98'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6r0001_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3430
+  label: 撰集三藏及雜藏傳
+  type: juan
+  level: 1
+hash: sha256:32be38b250d530e88a21737b0a4082880ff836f9d9bf2a21d5def914218afefb

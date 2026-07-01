@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6r0001/v1
+canonical_location: https://kanripo.org/bkk/KR6r0001/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 撰集三藏及雜藏傳
+  identifiers:
+    alt_id:
+    - T49n2026
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T49/T49n2026.xml
+    old_id: T49n2026
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 磧乙-CB
+  label: 磧乙-CB
+  source_xml_id: wit5
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit6
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0001_000.yaml, hash: 'sha256:16a1f38ac816b81e5676d561282ec720b830c89fc4c2eca15d650dd402a3f3b1'}
+  - {seq: 1, filename: KR6r0001_001.yaml, hash: 'sha256:d51cf28a31b829b58dfd29328b54e141d585f35fbeae9a406e4ffc0867eeffa3'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6r0001_001.markers.yaml, hash: 'sha256:a3485167ab3687abc019ae801b412367bb1b29cde9860cae80ffee4baac4c1f3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6r0001_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3430
+  label: 撰集三藏及雜藏傳
+  type: juan
+  level: 1
+hash: sha256:a387587a4383d78ff1133b3b06a5e0350748843c71140f5b9afcb62708e69e4c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
