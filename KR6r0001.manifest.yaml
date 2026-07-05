@@ -40,9 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6r0001_000.yaml, hash: 'sha256:16a1f38ac816b81e5676d561282ec720b830c89fc4c2eca15d650dd402a3f3b1'}
-  - {seq: 1, filename: KR6r0001_001.yaml, hash: 'sha256:d51cf28a31b829b58dfd29328b54e141d585f35fbeae9a406e4ffc0867eeffa3'}
+  - {seq: 1, filename: KR6r0001_001.yaml, hash: 'sha256:ec2c9014f7de3f0df1229162ae1c25f9bc09e5cb8100ee85cee3ed4634e6e359'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6r0001_001.markers.yaml, hash: 'sha256:a3485167ab3687abc019ae801b412367bb1b29cde9860cae80ffee4baac4c1f3'}
+  - {seq: 0, role: markers, filename: assets/KR6r0001_000.markers.yaml, hash: 'sha256:10c4b42a5bc57b1a96689010427b3a3171ff3e93f5f7807e232eb6015983f87b'}
+  - {seq: 1, role: markers, filename: assets/KR6r0001_001.markers.yaml, hash: 'sha256:cddca4aaf04a4a696e4dd1037a96286b1ec44b94033c0b67c7163b404f85e326'}
 table_of_contents:
 - ref:
     seq: 1
@@ -54,7 +55,4 @@ table_of_contents:
   label: 撰集三藏及雜藏傳
   type: juan
   level: 1
-hash: sha256:a387587a4383d78ff1133b3b06a5e0350748843c71140f5b9afcb62708e69e4c
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:cf46220c39fd4e3291ecafeecc175e0fa19e66bdf6b14731c051fa1b80098aa6
